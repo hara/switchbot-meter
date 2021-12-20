@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "go.formatTool": "goimports",
+  "go.lintTool": "golangci-lint",
+  "gopls": {
+    "formatting.local": "github.com/hara/switchbot-meter"
+  }
+}
